@@ -1668,26 +1668,6 @@
 		)
 		(uuid "25fb4366-3b8d-4896-8a2e-c660834dec82")
 	)
-	(text "row_2"
-		(exclude_from_sim no)
-		(at 167.894 112.268 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "740b84c2-4c36-4849-b213-7b80984656a5")
-	)
-	(text "col_1"
-		(exclude_from_sim no)
-		(at 167.894 109.728 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "d5c5ec60-5f35-4fca-9781-013005c8ef08")
-	)
 	(junction
 		(at 198.12 113.03)
 		(diameter 0)
