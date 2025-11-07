@@ -1,4 +1,4 @@
-80739520055238
+78978286778054
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -59331,13 +59331,6 @@ Potentiometer_slide_75mm_range_60mm_2_sets
 0
 8
 7
-CustomFootprints
-RP2040 Zero
-
-
-0
-46
-23
 CustomFootprints
 SPDT_3pin_2_pos_1P2T_tht_2.54mm_switch_sk12d07
 
