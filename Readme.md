@@ -6,7 +6,7 @@ your Schreibtischordnungsdienst
 
 
 ## Soldering instructions
---- Insert pdf here ------
+[![PDF Preview](./images/Soldering.png)](./path/to/file.pdf)
 
 ## Installation
 
