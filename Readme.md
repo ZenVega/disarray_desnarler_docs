@@ -22,7 +22,7 @@ If you want to start from scratch look further down for [general instructions](#
 In case you just want to flash your macropad: stay here.
 
 
-### Flash macropad 
+### Flash Desnarler
 If you want to work with the layout we provide clone this [repo](https://github.com/ZenVega/qmk_for_macropad/tree/main) containing the firmware and the macropad layout and keymap.
 
 (Alternatively you use the cloned firmware and copy/paste the all keyboard config files in the equivalent folder.)
@@ -37,7 +37,7 @@ git submodule update --init --recursive --force
 ```
 
 
-### Compiling
+### Compile
 This will create a *.bin that holds the firmware including your compilation ready to be flashed on the MCU
 
 ```bash
@@ -45,9 +45,9 @@ qmk compile -kb <keyboard> -km <keymap>
 ```
 you should find a <your_keyboard>
 
-If no keyboard is defined, your keymap is just 'default'
+If no keyboard is defined, your keymap is 'default'. Have a look around the keymaps we provided.
 
-### Flashing your MCU
+### Flash
 Once you are ready to flash qmk to your microcontroller (rp2040 in this case), plug it in and set it into bootloader mode.
 In our case that requires pressing the boot button while plugging it in. The device should show up as a flashable media in your files-explorer.
 run:
@@ -55,6 +55,14 @@ run:
 ```bash
 qmk flash -kb <keyboard> -km <keymap>
 ```
+
+#### Troubleshooting Flashing
+If your have done minor changes to your firmware, flashed and everything seemed fine, but the old firmware is still booting, download this [link](https://datasheets.raspberrypi.com/soft/flash_nuke.uf2). Once downloaded, copy it onto your RP2040 and just flash again.
+
+### Changing the Keymap
+you will find more information here soon about how to change the keymaps easily.
+O course you can consult the QMK documentation at any time.
+
 
 ## QMK Setup
 
