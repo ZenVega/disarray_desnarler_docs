@@ -1,21 +1,32 @@
-# CCC macropad
+# DisArray Desnaler
+Congrats on getting your first own DisArray Desnarler. We are happy to have you here and help you to organise your Desktop 
+
+
+your Schreibtischordnungsdienst
+
+
+## Soldering instructions
+--- Insert pdf here ------
 
 ## Installation
 
-### QMK Cli
+### Prepare: Install QMK
 This is just a quick recap. When you get stuck, check the official qmk documentation [here](https://docs.qmk.fm/newbs_getting_started)
+
 In order to get QMK installed on your system run
 'python3 -m pip install qmk'
 Test if installation was successfull:
 'qmk --version'
 
 If you want to start from scratch look further down for [general instructions](#qmk-setup).
-In case you just want to flash your macropad - stay here.
+In case you just want to flash your macropad: stay here.
 
 
 ### Flash macropad 
-If you want to work with the layout we provide clone this [repo] (https://github.com/ZenVega/qmk_for_macropad/tree/main) containing the firmware and the macropad layout and keymap.
-Or you use the cloned firmware and copy/paste the all keyboard config files in the equivalent folder.
+If you want to work with the layout we provide clone this [repo](https://github.com/ZenVega/qmk_for_macropad/tree/main) containing the firmware and the macropad layout and keymap.
+
+(Alternatively you use the cloned firmware and copy/paste the all keyboard config files in the equivalent folder.)
+
 To install all missing dependencies run:
 
 ```bash
