@@ -1,4 +1,4 @@
 PCB/ccc_macropad/ccc_macropad-backups
 **/*.zip
 private_notes.txt
-
+.DS_Store
