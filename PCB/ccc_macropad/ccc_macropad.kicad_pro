@@ -512,7 +512,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../../../ccc_macropad_art/",
+      "plot": "../../art/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
