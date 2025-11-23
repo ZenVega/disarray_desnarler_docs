@@ -63,12 +63,12 @@ qmk flash -kb <keyboard> -km <keymap>
 
 #### Troubleshooting Flashing
 
-If your have done minor changes to your firmware, flashed and everything seemed fine, but the old firmware is still booting, download this [link](https://datasheets.raspberrypi.com/soft/flash_nuke.uf2). Once downloaded, copy it onto your RP2040 and just flash again.
+If your have done minor changes to your firmware, flashed and everything seemed fine, but the old firmware is still booting, download this [nuke file](https://datasheets.raspberrypi.com/soft/flash_nuke.uf2). Once downloaded, copy it onto your RP2040 while in bootloader mode. This will erase all traces of the former firmware. Then just flash again.
 
 ### Changing the Keymap
 
 you will find more information here soon about how to change the keymaps easily.
-O course you can consult the QMK documentation at any time.
+Of course you can consult the [QMK documentation](https://docs.qmk.fm/newbs_getting_started) at any time.
 
 ## QMK Setup
 
@@ -102,16 +102,7 @@ your new keyboard's setup should now be created in:
 
 ![image](images/qmk_keyboard_files.png)
 
-in you keyboard.json:
-add:
-
-```yaml
-"via": true
-```
-
-to the features
-
-add:
+in you keyboard.json add:
 
 ```yaml
   "analog": {
