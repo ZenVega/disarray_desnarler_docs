@@ -3,9 +3,9 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "9.0.4-1.fc42app3"
+      "Version": "9.0.6"
     },
-    "CreationDate": "2025-10-31T17:54:05+01:00"
+    "CreationDate": "2025-11-24T08:10:32+01:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -14,7 +14,7 @@
       "Revision": "rev?"
     },
     "Size": {
-      "X": 101.5381,
+      "X": 114.0168,
       "Y": 44.0381
     },
     "LayerNumber": 2,
@@ -76,6 +76,11 @@
     {
       "Path": "ccc_macropad-Edge_Cuts.gm1",
       "FileFunction": "Profile",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "ccc_macropad-F_Fab.gbr",
+      "FileFunction": "AssemblyDrawing,Top",
       "FilePolarity": "Positive"
     }
   ],
