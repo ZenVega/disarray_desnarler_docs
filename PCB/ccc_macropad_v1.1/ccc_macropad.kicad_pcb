@@ -68,8 +68,8 @@
 		(tenting front back)
 		(grid_origin 153.5 69.5)
 		(pcbplotparams
-			(layerselection 0x00000000_00000000_5555555d_7755f5ff)
-			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000020)
+			(layerselection 0x00000000_00000000_5555555d_ff55f5ff)
+			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions yes)
 			(usegerberattributes yes)
@@ -37115,7 +37115,7 @@
 		(uuid "f46ff808-017b-4fff-a1c8-5673018a2202")
 	)
 	(via
-		(at 181.25 49.75)
+		(at 181 49.75)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
