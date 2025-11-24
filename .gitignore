@@ -1,5 +1,6 @@
 .DS_Store
-PCB/ccc_macropad/ccc_macropad-backups
+PCB/**/ccc_macropad-backups
+PCB/**/gerbers
 **/*.zip
 private_notes.txt
 
