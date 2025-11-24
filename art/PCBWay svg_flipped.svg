@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="图层_1"
+   data-name="图层 1"
+   viewBox="0 0 319.65 87.44"
+   version="1.1"
+   sodipodi:docname="PCBWay svg_flipped.svg"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="namedview6"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="3.8448304"
+     inkscape:cx="156.18374"
+     inkscape:cy="26.659174"
+     inkscape:window-width="2560"
+     inkscape:window-height="1403"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="图层_1" />
+  <defs
+     id="defs2">
+    <style
+       id="style1">.cls-1,.cls-4{fill:#1f833b;}.cls-1,.cls-2{clip-rule:evenodd;}.cls-2{fill:none;}.cls-3{fill:#d36221;}.cls-3,.cls-4{fill-rule:evenodd;}.cls-5{clip-path:url(#clip-path);}.cls-6{clip-path:url(#clip-path-2);}.cls-7{clip-path:url(#clip-path-3);}</style>
+    <clipPath
+       id="clip-path"
+       transform="translate(-281.33 -181.51)">
+      <path
+         class="cls-1"
+         d="M374.2,199.21l-6.32,6q-6.51-6.76-14.56-6.76a15.76,15.76,0,0,0-11.5,4.61,15.34,15.34,0,0,0-4.66,11.37,16.77,16.77,0,0,0,2,8.37,14.53,14.53,0,0,0,5.88,5.72,17.27,17.27,0,0,0,8.35,2.06,17.74,17.74,0,0,0,7.25-1.44,26.3,26.3,0,0,0,7.19-5.26l6.08,6.33a32.86,32.86,0,0,1-9.93,7.06,27.49,27.49,0,0,1-10.71,2q-11,0-18.1-6.94t-7.09-17.94a24.24,24.24,0,0,1,3.22-12.5,23.75,23.75,0,0,1,9.22-8.82,26.24,26.24,0,0,1,12.87-3.31,27.44,27.44,0,0,1,11.37,2.45A26.64,26.64,0,0,1,374.2,199.21Z"
+         id="path1" />
+    </clipPath>
+    <clipPath
+       id="clip-path-2"
+       transform="translate(-281.33 -181.51)">
+      <path
+         class="cls-2"
+         d="M558.43,194.07s-11.23,11.63,1.06,28.35c26.36,4.57,13.71-4.13,13.71-4.13l15.43-7.37,9.11-10.22L601,187.39l-24.26-5.88Z"
+         id="path2" />
+    </clipPath>
+    <clipPath
+       id="clip-path-3"
+       transform="translate(-281.33 -181.51)">
+      <polygon
+         class="cls-2"
+         points="594.53 223.71 562.6 212.85 530.87 241.03 594.53 241.03 594.53 223.71"
+         id="polygon2" />
+    </clipPath>
+  </defs>
+  <title
+     id="title2">纯logo [转换]</title>
+  <path
+     class="cls-3"
+     d="M 136.59,62.81 C 82.71,61.14 45.59,64.6 0,70.25 l 1.89,1.34 c 38.08,-2.71 62.42,-6.9 104.95,-5.75 68.45,1.85 125.7,11 180.24,21.6 l -1.56,-7.52 A 1029.54,1029.54 0 0 0 136.59,62.81 Z"
+     id="path3" />
+  <path
+     class="cls-4"
+     d="m 194.21,17.7 6.32,6 q 6.51,-6.76 14.56,-6.76 a 15.76,15.76 0 0 1 11.5,4.61 15.34,15.34 0 0 1 4.66,11.37 16.77,16.77 0 0 1 -2,8.37 14.53,14.53 0 0 1 -5.88,5.72 17.27,17.27 0 0 1 -8.35,2.06 17.74,17.74 0 0 1 -7.25,-1.44 26.3,26.3 0 0 1 -7.19,-5.26 l -6.08,6.33 a 32.86,32.86 0 0 0 9.93,7.06 27.49,27.49 0 0 0 10.71,2 q 11,0 18.1,-6.94 7.1,-6.94 7.09,-17.94 a 24.24,24.24 0 0 0 -3.22,-12.5 23.75,23.75 0 0 0 -9.22,-8.82 26.24,26.24 0 0 0 -12.87,-3.31 27.44,27.44 0 0 0 -11.37,2.45 26.64,26.64 0 0 0 -9.44,7 z"
+     id="path4" />
+  <g
+     class="cls-5"
+     clip-path="url(#clip-path)"
+     id="g6"
+     transform="matrix(-1,0,0,1,287.08,0)">
+    <g
+       class="cls-6"
+       clip-path="url(#clip-path-2)"
+       id="g4">
+      <image
+         width="225"
+         height="190"
+         transform="matrix(0.24,0,0,0.24,265.87,0)"
+         xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOIAAAC/CAYAAADjAAD+AAAACXBIWXMAAC5KAAAuSgHjYbEKAAACTklEQVR4Xu3TIRKAQBADwYXi/18+DBrUFSO6TUzsHGutmZk1wG/OrwOwnxAhQIgQIEQIECIECBEChAgBQoQAIUKAECFAiBAgRAgQIgQIEQKECAFChAAhQoAQIUCIECBECBAiBAgRAoQIAUKEACFCgBAhQIgQIEQIECIECBEChAgBQoQAIUKAECFAiBAgRAgQIgQIEQKECAFChAAhQoAQIUCIECBECBAiBAgRAoQIAUKEACFCgBAhQIgQIEQIECIECBEChAgBQoQAIUKAECFAiBAgRAgQIgQIEQKECAFChAAhQoAQIUCIECBECBAiBAgRAoQIAUKEACFCgBAhQIgQIEQIECIECBEChAgBQoQAIUKAECFAiBAgRAgQIgQIEQKECAFChAAhQoAQIUCIECBECBAiBAgRAoQIAUKEACFCgBAhQIgQIEQIECIECBEChAgBQoQAIUKAECFAiBAgRAgQIgQIEQKECAFChAAhQoAQIUCIECBECBAiBAgRAoQIAUKEACFCgBAhQIgQIEQIECIECBEChAgBQoQAIUKAECFAiBAgRAgQIgQIEQKECAFChAAhQoAQIUCIECBECBAiBAgRAoQIAUKEACFCgBAhQIgQIEQIECIECBEChAgBQoQAIUKAECFAiBAgRAgQIgQIEQKECAFChAAhQoAQIUCIECBECBAiBAgRAoQIAUKEACFCgBAhQIgQIEQIECIECBEChAgBQoQAIUKAECFAiBAgRAgQIgQIEQKECAFChAAhQoAQIUCIECBECBAiBFzPHq8vYKsbcFgFfd/lxMUAAAAASUVORK5CYII="
+         id="image4" />
+    </g>
+    <g
+       class="cls-7"
+       clip-path="url(#clip-path-3)"
+       id="g5">
+      <image
+         width="266"
+         height="118"
+         transform="matrix(0.24,0,0,0.24,249.54,31.34)"
+         xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQsAAAB3CAYAAAAUwmVcAAAACXBIWXMAAC5KAAAuSgHjYbEKAAABh0lEQVR4Xu3UMRHAMADEsG+v/CmnEGIA0uzZzzlnADffNrcAbp73VgBsm1kAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAiVkAyQ/newTt1cj7dAAAAABJRU5ErkJggg=="
+         id="image5" />
+    </g>
+  </g>
+  <path
+     class="cls-4"
+     d="M 281.48,58.87 V 7.79 h -16.55 c -6.27,0 -10.36,0.27 -12.26,0.77 a 13.42,13.42 0 0 0 -7.36,5 15.83,15.83 0 0 0 -3,9.94 16.62,16.62 0 0 0 1.71,7.91 14,14 0 0 0 4.34,5 14.47,14.47 0 0 0 5.34,2.42 56.78,56.78 0 0 0 10.7,0.74 h 6.72 V 58.83 Z M 79.28,6.99 92.41,58.87 h 14.3 l 8.33,-32.08 8.05,32.08 h 14.32 L 150.54,6.99 H 137.02 L 129.87,41.76 121.16,6.99 H 108.23 L 99.98,41.81 92.41,6.99 Z M 4.76,19.74 24.51,73.23 H 37.62 L 31.68,57.97 46.05,19.74 H 33.23 L 25,44.32 17.29,19.74 Z m 52.86,28.93 v -8.18 c 2.07,0.21 3.75,0.39 5,0.54 a 17.08,17.08 0 0 1 3.77,0.89 5.27,5.27 0 0 1 2.49,1.69 4.76,4.76 0 0 1 0.89,3 c 0,1.83 -0.5,3.1 -1.49,3.78 a 7.67,7.67 0 0 1 -4.36,1 8.26,8.26 0 0 1 -3.28,-0.73 10.25,10.25 0 0 1 -3,-2 z m 0,6 v 4.15 H 45.49 V 32.26 q 0,-6.92 4.62,-10.27 4.62,-3.35 14.73,-3.36 A 46.52,46.52 0 0 1 73,19.34 c 2.69,0.47 4.64,0.89 5.85,1.24 v 9.44 h -1 a 41.25,41.25 0 0 0 -5.65,-2 19.84,19.84 0 0 0 -5.06,-0.78 16.24,16.24 0 0 0 -7.16,1.23 4.6,4.6 0 0 0 -2.39,4.48 v 0.21 c 3.53,0.24 6.83,0.56 9.9,1 a 26.52,26.52 0 0 1 7.92,2.23 11.94,11.94 0 0 1 5,4.25 12.66,12.66 0 0 1 1.75,7 12,12 0 0 1 -3.43,8.78 11.67,11.67 0 0 1 -8.63,3.48 14.25,14.25 0 0 1 -7.53,-1.64 13.37,13.37 0 0 1 -2.66,-1.67 q -1,-0.83 -2.25,-1.89 z m 93.57,-11.74 c 0,2.59 -0.35,5 0.63,6.93 a 13.9,13.9 0 0 0 3.93,4.84 18.44,18.44 0 0 0 6.44,3.27 33.82,33.82 0 0 0 8.89,1 h 20.77 V 7.11 h -18.33 a 64,64 0 0 0 -8.66,0.44 17.08,17.08 0 0 0 -5.52,1.82 10.14,10.14 0 0 0 -4.16,4 11.86,11.86 0 0 0 -1.38,5.79 12.3,12.3 0 0 0 1.9,6.76 11.3,11.3 0 0 0 5.24,4.37 v 0.27 a 14.14,14.14 0 0 0 -7.7,4.13 c -1.92,2.08 -2.05,4.76 -2.05,8.28 z m 15.85,-21.14 a 5.84,5.84 0 0 1 0.64,-2.58 3.87,3.87 0 0 1 2,-1.91 8,8 0 0 1 3.05,-0.62 c 1.17,0 2.92,-0.05 5.24,-0.05 h 0.91 v 11 h -1.65 c -2.22,0 -3.79,0 -4.68,-0.07 a 7.61,7.61 0 0 1 -2.77,-0.73 4.16,4.16 0 0 1 -2.16,-2 7.27,7.27 0 0 1 -0.59,-3 z m -3.27,21.08 a 6.32,6.32 0 0 1 1,-3.76 6.1,6.1 0 0 1 2.93,-2.06 10.34,10.34 0 0 1 3.26,-0.51 c 1.38,0 3.24,-0.05 5.55,-0.05 h 2.41 v 13 h -0.71 q -5.08,0 -7,-0.07 a 11.14,11.14 0 0 1 -4,-0.94 5.16,5.16 0 0 1 -2.59,-2.25 6.76,6.76 0 0 1 -0.82,-3.35 z M 271.16,16.49 v 14.48 h -5.63 c -4.07,0 -6.8,-0.26 -8.16,-0.79 a 6.83,6.83 0 0 1 -3.23,-2.51 6.92,6.92 0 0 1 -1.16,-4 6.65,6.65 0 0 1 1.64,-4.61 7.2,7.2 0 0 1 4.14,-2.26 51.92,51.92 0 0 1 7.42,-0.34 z"
+     id="path6" />
+  <metadata
+     id="metadata6">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>纯logo [转换]</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>
