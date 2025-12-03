@@ -8,7 +8,11 @@ your Schreibtischordnungsdienst
 
 ## Soldering instructions
 
-[![PDF Preview](./images/Soldering.png)](./path/to/file.pdf)
+ALL components should be soldered to the FRONT of the board, with the exception of the optional hot swaps (d).
+
+The alphabetical markers in this diagram show the recommended soldering order, based on the height of components. Note that while "a" through "c" are next to each other on the diagram, the rest of the sequence is scattered, so be careful not to simply go clockwise.
+
+[![PDF Preview](./images/Soldering.jpg)](./path/to/file.pdf)
 
 ## Installation
 
