@@ -5,7 +5,7 @@ If you are in a workshop with us, we will help you and flash the first round wit
 
 If you feel comfortable with the terminal and an IDE of your choice. This guide is for you.
 
-//nice desnarler pic here?
+![](./images/desnarler1.jpg)
 
 # Prepare: Install QMK
 
