@@ -12,12 +12,12 @@ If you feel comfortable with coding: this is just an easy intro for people less 
 
 ### easy example
 
-In the [QMK documentation](https://docs.qmk.fm/newbs_getting_started) you will find big tables that tell you, what the names of all the keys you could potentially press are [here](https://docs.qmk.fm/keycodes_basic).
+In the [QMK documentation](https://docs.qmk.fm/newbs_getting_started) you will find big tables where you can figure out the names of all the keys you could potentially press [here](https://docs.qmk.fm/keycodes_basic).
 
 Lets say you want to use just a single layout, where the keys are the keys A, B, 1, 2.
 Then the layout would be
 ```bash
-[0] LAYOUT(KC_A, KC_B, KC_1, KC_2)
+[0] = LAYOUT(KC_A, KC_B, KC_1, KC_2)
 ```
 pretty easy to see why, isn't it?
 
@@ -36,7 +36,7 @@ the 4 keys in layout 0:
 
 - the first key MO(1) will change the layout to Layout 1 while held, just as MO(2) on the second key will change to Layout 2
 - the third key will send the keys left GUI (also called Super or OS key), left Alt and the left arrow key at the same time
-- just a the fourth key will send the keys left GUI left Alt and the right arrow key at the same time
+- just like the fourth key will send the keys left GUI - left Alt and the right arrow key at the same time
 
 What you see in this example is how you can send multiple keys at the same time, if some of them are modifier keys. In easy words a modifier key is a key on your normal keyboard that chnage the layout of your keyboard, when pressed. For instance to reach the layout that contains all the capital letters you hold the Shift key. So KC_A will write 'a' while LSFT(KC_A) will write 'A'. A list of the names of the Modifier Keys and the way to use them within QMK is [here](https://docs.qmk.fm/feature_advanced_keycodes).
 
