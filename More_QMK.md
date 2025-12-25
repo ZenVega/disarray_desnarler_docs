@@ -36,3 +36,22 @@ You can learn more about functions that for instance get called once on boot of 
 - QMK does not support Unicode. So sending the Unicode of the Umlaute is not possible. Only ascii characters are accepted
 - it is possible to send strings (using send_string(char *str)). But well, ascii strings.
 - there are language specific headers! won't they support sending unusual character? - nope, they just provide provides language-specific keycode aliases - this would only be useful if your normal keyboard is not set to be read as US ANSI but say German - but then there would also be no need for a seperate keyboard option to produce 'Ä'
+
+#### options for the Umlaut map
+- the current Umlaut map does not support capital Umlaute. The code for this is there. But there are just 4 keys. So if you want to have ß, we are lacking a key for Capitalisation
+- is there not an option to double use one physical key? there is! it would be using 
+```
+LT(layer selected on hold, key pressed on tap)
+```
+but: this does not work for "invented" keys as our AUML
+
+
+### Contribute!
+This for now and for our current investigation results.
+
+If you have more ideas for useful keymaps or want to share and show us how you are using your Desnarler: create a pull request 
+
+loads of love - the DesktopOrdnungsamt
+
+
+
