@@ -39,23 +39,27 @@ We provide a few different keymaps, that we think will be useful to you.
 When you look around in the repo you just cloned, there is a directory "keyboards". Within this choose the directory corresponding to the keyboard you have - in your case it is a DesnarlerV1. Within this directory there are different keymaps to configure what your Desnarler does.
 
 ### default keymap
-The default keymap allows you to navigate through Workspaces on Linux, if the Switch on the top left of the Desnarler is to the left. And does the same thing on MacOS if the switch is to the right.
-
-- The 2 most right keys will navigate workspaces without dragging your current window.
-- Pressing the left most key plus one of the right most keys will navigate through workspaces while dragging the current window along. 
-- Pressing the second key to the left will activate the 2 right keys to circle through all the open applications 
-- holding the 2 right most keys and pressing any of the other 2 will put your system to sleep
-
-### default_pure_linux keymap
 As the name says, this keymap should be used on a Linux OS.
 There are two independent sets of layouts.
 
-If the switch on the top left of the Desnarler is to the left it will behave as the default keymap and help you navigate through workspaces and open apllications.
+If the switch on the top left of the Desnarler is to the left:
+- The 2 most right keys will navigate workspaces without dragging your current window.
+- Pressing the left most key plus one of the right most keys will navigate through workspaces while dragging the current window along. 
+- Pressing the second key to the left will activate the 2 right keys to circle through all the open applications 
+- holding the 2 right most keys and pressing one of the other 2 will log you out or put your system to sleep
+
 
 If the switch it to the right, the focus is on rearranging the windows within a workspace
 - the 2 left most keys will move the currently active windows to the left or right half of the screen.
 - having activated the left most key, the 2 keys on the right will maximize and minimize the current window
 - holding the second key to the left will let you switch workspaces without dragging the current window
+- holding the 2 right most keys and pressing one of the other 2 will log you out or put your system to sleep
+
+More information on this map and an easy introduction into QMK you will find [here](./How_to_configure.md)
+
+### German Umlaute ä, ö, ü
+This keymap has the German Umlaute on the second set of layers (switch to the right), including the option to get the capital Umlaute. More thoughts on this map and a slightly deeper dive into QMK [here](./More_QMK.md)
+
 
 ## Compile
 After you have chosen your preferred keymap, you are ready to compile.
@@ -69,10 +73,10 @@ qmk compile -kb <keyboard> -km <keymap>
 so a likely use will be
 
 ```bash
-qmk compile -kb desnarler_v1 -km default_pure_linux
+qmk compile -kb desnarler_v1 -km default
 ```
 
-If no keyboard is defined, your keymap is 'default'. 
+If no keyboard is defined, your keymap is 'default'. (which might not be defined in all cases)
 
 ### Flash
 After compilation you are ready to flash qmk to your microcontroller (rp2040 in this case): plug it in and set it into bootloader mode. 
