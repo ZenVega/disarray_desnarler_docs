@@ -27,6 +27,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record)
 This function is called everytime a key is pressed or released and therefore is just the right spot for us to handle our custom Umlaut keys.
 
 Let's look at AUML as an example:
+
 ![](./images/record_user.png)
 
 In case we pressed the key, that we labeld AUML in the Layout it's case will be called in this switch statement. Then we will tap (imitating one short keypress) our compose key, which is set to right Alt. Then we need to hold left shift while pressing "/'. So we register left shift and press " before we unregister (let go of) left shift. This sequence is the same for all Umlaute. As we want Ä in this example, we tap KC_A and we are done. (the umlaut_pressed function handles the LEDs on key press here).
