@@ -1,5 +1,7 @@
 # The Umlaut map – using a bit more complex features of qmk
 
+![](./images/desnarler2.jpg)
+
 ### general idea and neccesary settings
 If you want to type to type the German Umlaute Ä, Ö and Ü on a regular QWERTY keyboard, you will have to use [compose keys](https://en.wikipedia.org/wiki/Compose_key).
 To get to ä you would use 
