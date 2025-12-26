@@ -12,7 +12,7 @@ ALL components should be soldered to the FRONT of the board, with the exception 
 
 The alphabetical markers in this diagram show the recommended soldering order, based on the height of components. Note that while "a" through "c" are next to each other on the diagram, the rest of the sequence is scattered, so be careful not to simply go clockwise.
 
-[![PDF Preview](./images/soldering_instructions.png)]
+[![PDF Preview](./images/soldering_instructions.png)](./images/soldering_instructions.png)
 
 ### Flashing your Desnarler
 
