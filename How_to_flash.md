@@ -1,6 +1,7 @@
 ### Great! you finished soldering!
 
 ### so let's go ahead and flash some firmware onto your Desnarler!
+
 If you are in a workshop with us, we will help you and flash the first round with you, or you even got an already flashed microcontroller.
 
 If you feel comfortable with the terminal and an IDE of your choice: This guide is for you.
@@ -11,16 +12,13 @@ If you feel comfortable with the terminal and an IDE of your choice: This guide 
 
 This is just a quick recap. If you get stuck, check the official qmk documentation [here](https://docs.qmk.fm/newbs_getting_started)
 
-In order to get QMK installed on your system run
-```bash
-python3 -m pip install qmk
-```
+In order to get QMK CLI installed on your system follow the first two steps from the [installation instructions] (https://docs.qmk.fm/newbs_getting_started)
 
 Test if installation was successfull:
+
 ```bash
 qmk --version
 ```
-
 
 # Flash Desnarler
 
@@ -34,22 +32,26 @@ git submodule update --init --recursive
 git submodule sync --recursive
 git submodule update --init --recursive --force
 ```
+
 ## Chose Keymap
+
 We provide a few different keymaps, that we think will be useful to you.
 When you look around in the repo you just cloned, there is a directory "keyboards". Within this choose the directory corresponding to the keyboard you have - in your case it is a DesnarlerV1. Within this directory there are different keymaps to configure what your Desnarler does.
 
 ### default keymap
+
 As the name says, this keymap should be used on a Linux OS.
 There are two independent sets of layouts.
 
 If the switch on the top left of the Desnarler is to the left:
+
 - The 2 most right keys will navigate workspaces without dragging your current window.
-- Pressing the left most key plus one of the right most keys will navigate through workspaces while dragging the current window along. 
-- Pressing the second key to the left will activate the 2 right keys to circle through all the open applications 
+- Pressing the left most key plus one of the right most keys will navigate through workspaces while dragging the current window along.
+- Pressing the second key to the left will activate the 2 right keys to circle through all the open applications
 - holding the 2 right most keys and pressing one of the other 2 will log you out or put your system to sleep
 
-
 If the switch it to the right, the focus is on rearranging the windows within a workspace
+
 - the 2 left most keys will move the currently active windows to the left or right half of the screen.
 - having activated the left most key, the 2 keys on the right will maximize and minimize the current window
 - holding the second key to the left will let you switch workspaces without dragging the current window
@@ -58,10 +60,11 @@ If the switch it to the right, the focus is on rearranging the windows within a 
 More information on this map and an easy introduction into QMK you will find [here](./How_to_configure.md)
 
 ### German Umlaute ä, ö, ü
+
 This keymap has the German Umlaute on the second set of layers (switch to the right), including the option to get the capital Umlaute. More thoughts on this map and a slightly deeper dive into QMK [here](./More_QMK.md)
 
-
 ## Compile
+
 After you have chosen your preferred keymap, you are ready to compile.
 
 Compilation will create a \*.bin that holds the firmware including your compilation ready to be flashed on the MCU
@@ -79,7 +82,8 @@ qmk compile -kb desnarler_v1 -km default
 If no keyboard is defined, your keymap is 'default'. (which might not be defined in all cases)
 
 ### Flash
-After compilation you are ready to flash qmk to your microcontroller (rp2040 in this case): plug it in and set it into bootloader mode. 
+
+After compilation you are ready to flash qmk to your microcontroller (rp2040 in this case): plug it in and set it into bootloader mode.
 This requires pressing the boot button while plugging it in. The device should show up as a flashable media in your files-explorer.
 run:
 
@@ -88,10 +92,10 @@ qmk flash -kb <keyboard> -km <keymap>
 ```
 
 so likely you will use
+
 ```bash
 qmk compile -kb desnarler_v1 -km default_pure_linux
 ```
-
 
 #### Troubleshooting Flashing
 
