@@ -12,8 +12,7 @@ ALL components should be soldered to the FRONT of the board, with the exception 
 
 The alphabetical markers in this diagram show the recommended soldering order, based on the height of components. Note that while "a" through "c" are next to each other on the diagram, the rest of the sequence is scattered, so be careful not to simply go clockwise.
 
-[![PDF Preview](./images/Soldering.jpg)](./path/to/file.pdf)
-
+[![PDF Preview](./images/soldering_instructions.png)](./images/soldering_instructions.png)
 
 ### Flashing your Desnarler
 
@@ -22,6 +21,3 @@ After you are done soldering, it is time to flash your Desnarler with some firmw
 For this please refer to the [How_to_flash](./How_to_flash.md).
 
 If your are further interested in configuring the Desnarler yourself see [How_to_configure](./How_to_configure.md).
-
-
-
