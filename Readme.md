@@ -8,6 +8,8 @@ your Schreibtischordnungsdienst
 
 ## Soldering instructions
 
+The PCbs are sponsored by [ PCBWay ](https://www.pcbway.com/). Thanks for the support. Check out their services for high quality PCBs and fat service.
+
 ALL components should be soldered to the FRONT of the board, with the exception of the optional hot swaps (d).
 
 The alphabetical markers in this diagram show the recommended soldering order, based on the height of components. Note that while "a" through "c" are next to each other on the diagram, the rest of the sequence is scattered, so be careful not to simply go clockwise.
