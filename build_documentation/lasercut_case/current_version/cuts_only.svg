@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330.2597 131.7441">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: red;
+        stroke-miterlimit: 10;
+        stroke-width: .7087px;
+      }
+    </style>
+  </defs>
+  <g>
+    <circle class="cls-1" cx="12.0892" cy="12.0138" r="4.5354"/>
+    <circle class="cls-1" cx="318.2309" cy="119.7303" r="4.5354"/>
+    <circle class="cls-1" cx="318.2309" cy="12.0138" r="4.5354"/>
+    <circle class="cls-1" cx="12.0892" cy="119.7303" r="4.5354"/>
+  </g>
+  <g id="New_Cuts_1">
+    <g id="Cuts2">
+      <rect id="rect27615" class="cls-1" x="23.3245" y="65.3527" width="225" height="57.68"/>
+      <rect id="rect27616" class="cls-1" x="40.1245" y="43.2077" width="192.2" height="5.253"/>
+    </g>
+  </g>
+  <g id="Cuts1">
+    <path class="cls-1" d="M329.9053,122.4556V9.2886"/>
+    <path class="cls-1" d="M329.9053,9.2886c0-4.9342-3.8835-8.9342-8.674-8.9342"/>
+    <path class="cls-1" d="M.3543,122.4556V9.2886"/>
+    <path class="cls-1" d="M9.0283.3543C4.2378.3543.3543,4.3543.3543,9.2886"/>
+    <path class="cls-1" d="M321.2313.3543h-24.9485"/>
+    <path class="cls-1" d="M.3543,122.4556c0,4.9342,3.8835,8.9342,8.674,8.9342"/>
+    <path class="cls-1" d="M321.2313,131.3898H9.0283"/>
+    <path class="cls-1" d="M297.3819.3543H9.0283"/>
+    <path class="cls-1" d="M321.2313,131.3898c4.7905,0,8.674-4,8.674-8.9342"/>
+  </g>
+</svg>
