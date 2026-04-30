@@ -94,7 +94,7 @@ qmk flash -kb <keyboard> -km <keymap>
 so likely you will use
 
 ```bash
-qmk compile -kb desnarler_v1 -km default_pure_linux
+qmk flash -kb desnarler_v1 -km default
 ```
 
 #### Troubleshooting Flashing
