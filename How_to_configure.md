@@ -41,7 +41,7 @@ the 4 keys in layout 0:
 
 What you see in this example is how you can send multiple keys at the same time, if some of them are modifier keys. In easy words a modifier key is a key on your normal keyboard that changes the layout of your keyboard, when pressed. For instance to reach the layout that contains all the capital letters you hold the Shift key. So KC_A will write 'a' while LSFT(KC_A) will write 'A'. A list of the names of the Modifier Keys and the way to use them within QMK is [here](https://docs.qmk.fm/feature_advanced_keycodes).
 
-Within the layouts of the default map, Desnarler acts as if the keys "pressed at the same time". For an example, where a keypress of the Desnarler leads to a series of keypress signals being send, habe a look in [More_QMK](./More_QMK.md).
+Within the layouts of the default map, Desnarler acts as if the keys "pressed at the same time". For an example, where a keypress of the Desnarler leads to a series of keypress signals being send, habe a look in [How_to_Umlaut.md](./How_to_Umlaut.md.md).
 
 We hope this helps as an introduction on how to configure your Desnarler just the way you need it. 
 

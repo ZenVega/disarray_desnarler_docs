@@ -61,7 +61,7 @@ More information on this map and an easy introduction into QMK you will find [he
 
 ### German Umlaute ä, ö, ü
 
-This keymap has the German Umlaute on the second set of layers (switch to the right), including the option to get the capital Umlaute. More thoughts on this map and a slightly deeper dive into QMK [here](./More_QMK.md)
+This keymap has the German Umlaute on the second set of layers (switch to the right), including the option to get the capital Umlaute. More thoughts on this map and a slightly deeper dive into QMK [here](./How_to_Umlaut.md)
 
 ## Compile
 
