@@ -4581,7 +4581,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Key_Switches:Kailh_socket_MX_PG1350_optional"
+		(property "Footprint" "footprints:Kailh_socket_MX_PG1350_optional"
 			(at 251.46 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -5082,7 +5082,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CustomFootprints:RP2040 Zero"
+		(property "Footprint" "RP2040 Zero:RP2040 Zero"
 			(at 138.43 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -6482,7 +6482,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Key_Switches:Kailh_socket_MX_PG1350_optional"
+		(property "Footprint" "footprints:Kailh_socket_MX_PG1350_optional"
 			(at 196.85 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -9785,7 +9785,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Key_Switches:Kailh_socket_MX_PG1350_optional"
+		(property "Footprint" "footprints:Kailh_socket_MX_PG1350_optional"
 			(at 196.85 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -11229,7 +11229,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Key_Switches:Kailh_socket_MX_PG1350_optional"
+		(property "Footprint" "footprints:Kailh_socket_MX_PG1350_optional"
 			(at 250.19 96.52 0)
 			(hide yes)
 			(show_name no)
