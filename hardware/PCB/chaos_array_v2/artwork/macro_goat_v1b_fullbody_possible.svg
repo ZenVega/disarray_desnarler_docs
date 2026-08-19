@@ -1,0 +1,88 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>Macro Goat logo, v1 variant B, full body</title>
+<desc>Low-poly technical goat, full standing body, circuit-trace horns, faceted torso, pin legs</desc>
+
+<rect x="0.5" y="0.5" width="511" height="511" fill="none" stroke="#000000" stroke-width="1"/>
+
+<g fill="none" stroke="#000000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+
+<!-- left horn -->
+<path d="M 224 90
+         L 224 60
+         L 194 60
+         L 194 34
+         L 168 34
+         L 168 16"/>
+<circle cx="224" cy="90" r="4" fill="#000000"/>
+<circle cx="194" cy="60" r="4" fill="#000000"/>
+<circle cx="168" cy="34" r="4" fill="#000000"/>
+<circle cx="168" cy="16" r="5" fill="none"/>
+
+<!-- right horn -->
+<path d="M 288 90
+         L 288 60
+         L 318 60
+         L 318 34
+         L 344 34
+         L 344 16"/>
+<circle cx="288" cy="90" r="4" fill="#000000"/>
+<circle cx="318" cy="60" r="4" fill="#000000"/>
+<circle cx="344" cy="34" r="4" fill="#000000"/>
+<circle cx="344" cy="16" r="5" fill="none"/>
+
+<!-- head, low-poly -->
+<path d="M 256 90
+         L 224 90
+         L 212 130
+         L 226 172
+         L 256 200
+         L 286 172
+         L 300 130
+         L 288 90
+         Z"/>
+<path d="M 256 90 L 256 200"/>
+<path d="M 224 90 L 240 148 L 256 200"/>
+<path d="M 288 90 L 272 148 L 256 200"/>
+
+<!-- ears -->
+<path d="M 212 130 L 186 118 L 194 144 Z"/>
+<path d="M 300 130 L 326 118 L 318 144 Z"/>
+
+<!-- eyes -->
+<rect x="240" y="126" width="10" height="5" fill="#000000" stroke="none"/>
+<rect x="262" y="126" width="10" height="5" fill="#000000" stroke="none"/>
+
+<!-- beard -->
+<path d="M 256 200 L 256 216 L 249 221 L 263 226 L 249 231 L 256 236"/>
+<circle cx="256" cy="240" r="4" fill="#000000"/>
+
+<!-- neck into torso -->
+<path d="M 226 172 L 150 210 L 130 260 L 150 320 L 200 350 L 312 350 L 362 320 L 382 260 L 362 210 L 286 172"/>
+
+<!-- torso facet lines -->
+<path d="M 150 210 L 200 260 L 150 320"/>
+<path d="M 362 210 L 312 260 L 362 320"/>
+<path d="M 200 260 L 312 260"/>
+<path d="M 130 260 L 200 260"/>
+<path d="M 382 260 L 312 260"/>
+<path d="M 200 350 L 200 260"/>
+<path d="M 312 350 L 312 260"/>
+
+<!-- tail -->
+<path d="M 362 210 L 396 196 L 400 214 L 372 224 Z"/>
+
+<!-- four legs, straight pin-style, ending in via-node hooves -->
+<path d="M 168 350 L 164 420"/>
+<circle cx="163" cy="426" r="5" fill="#000000"/>
+
+<path d="M 208 350 L 206 420"/>
+<circle cx="205" cy="426" r="5" fill="#000000"/>
+
+<path d="M 304 350 L 306 420"/>
+<circle cx="307" cy="426" r="5" fill="#000000"/>
+
+<path d="M 344 350 L 348 420"/>
+<circle cx="349" cy="426" r="5" fill="#000000"/>
+
+</g>
+</svg>
