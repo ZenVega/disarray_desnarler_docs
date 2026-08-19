@@ -1,0 +1,115 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>Macro Goat logo, v1a with structural depth lines</title>
+<desc>Low-poly technical goat head with doubled outline strokes on structural elements for a layered technical-drawing depth effect</desc>
+
+<!-- double border -->
+<rect x="0.5" y="0.5" width="511" height="511" fill="none" stroke="#000000" stroke-width="1"/>
+<rect x="8.5" y="8.5" width="495" height="495" fill="none" stroke="#000000" stroke-width="1"/>
+
+<g fill="none" stroke="#000000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+
+<!-- left horn: main trace + doubled offset trace -->
+<path d="M 196 150
+         L 196 110
+         L 150 110
+         L 150 70
+         L 110 70
+         L 110 40"/>
+<g transform="translate(4,4)" stroke-width="2">
+<path d="M 196 150
+         L 196 110
+         L 150 110
+         L 150 70
+         L 110 70
+         L 110 40"/>
+</g>
+<circle cx="196" cy="150" r="5" fill="#000000"/>
+<circle cx="150" cy="110" r="5" fill="#000000"/>
+<circle cx="110" cy="70" r="5" fill="#000000"/>
+<circle cx="110" cy="40" r="6" fill="none"/>
+
+<!-- right horn: main trace + doubled offset trace -->
+<path d="M 316 150
+         L 316 110
+         L 362 110
+         L 362 70
+         L 402 70
+         L 402 40"/>
+<g transform="translate(-4,4)" stroke-width="2">
+<path d="M 316 150
+         L 316 110
+         L 362 110
+         L 362 70
+         L 402 70
+         L 402 40"/>
+</g>
+<circle cx="316" cy="150" r="5" fill="#000000"/>
+<circle cx="362" cy="110" r="5" fill="#000000"/>
+<circle cx="402" cy="70" r="5" fill="#000000"/>
+<circle cx="402" cy="40" r="6" fill="none"/>
+
+<!-- low-poly goat head: outline + inset doubled outline -->
+<path d="M 256 150
+         L 196 150
+         L 176 230
+         L 200 320
+         L 232 380
+         L 256 420
+         L 280 380
+         L 312 320
+         L 336 230
+         L 316 150
+         Z"/>
+<g transform="translate(256,285) scale(0.945) translate(-256,-285)" stroke-width="2">
+<path d="M 256 150
+         L 196 150
+         L 176 230
+         L 200 320
+         L 232 380
+         L 256 420
+         L 280 380
+         L 312 320
+         L 336 230
+         L 316 150
+         Z"/>
+</g>
+
+<!-- internal facet lines -->
+<path d="M 256 150 L 256 420"/>
+<path d="M 196 150 L 232 260 L 256 420"/>
+<path d="M 316 150 L 280 260 L 256 420"/>
+<path d="M 176 230 L 232 260"/>
+<path d="M 336 230 L 280 260"/>
+
+<!-- via nodes at facet junctions -->
+<circle cx="232" cy="260" r="3" fill="#000000"/>
+<circle cx="280" cy="260" r="3" fill="#000000"/>
+
+<!-- ears -->
+<path d="M 176 230 L 140 215 L 150 250 Z"/>
+<path d="M 336 230 L 372 215 L 362 250 Z"/>
+
+<!-- eyes -->
+<rect x="222" y="230" width="14" height="6" fill="#000000" stroke="none"/>
+<rect x="276" y="230" width="14" height="6" fill="#000000" stroke="none"/>
+
+<!-- beard: main zigzag + doubled offset zigzag -->
+<path d="M 256 420 L 256 445 L 246 452 L 266 460 L 246 468 L 256 475"/>
+<g transform="translate(6,0)" stroke-width="2">
+<path d="M 256 420 L 256 445 L 246 452 L 266 460 L 246 468 L 256 475"/>
+</g>
+<circle cx="256" cy="480" r="5" fill="#000000"/>
+
+<!-- side pins from jaw -->
+<path d="M 176 230 L 140 240"/>
+<circle cx="136" cy="241" r="4" fill="#000000"/>
+<path d="M 200 320 L 164 332"/>
+<circle cx="160" cy="333" r="4" fill="#000000"/>
+
+<path d="M 336 230 L 372 240"/>
+<circle cx="376" cy="241" r="4" fill="#000000"/>
+<path d="M 312 320 L 348 332"/>
+<circle cx="352" cy="333" r="4" fill="#000000"/>
+
+</g>
+</svg>

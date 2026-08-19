@@ -1,0 +1,64 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>Macro Goat logo, variant 2</title>
+<desc>Abstract technical goat head, monochrome, inductor-coil horns, IC-chip pins</desc>
+
+<rect x="0.5" y="0.5" width="511" height="511" fill="none" stroke="#000000" stroke-width="1"/>
+
+<g fill="none" stroke="#000000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+
+<!-- left horn: inductor coil arcs curling up and out -->
+<path d="M 210 160 L 210 130"/>
+<path d="M 210 130 A 12 12 0 0 1 186 130"/>
+<path d="M 186 130 A 12 12 0 0 1 162 130"/>
+<path d="M 162 130 A 12 12 0 0 1 138 130"/>
+<path d="M 138 130 L 118 110"/>
+<circle cx="118" cy="110" r="5" fill="#000000"/>
+
+<!-- right horn: mirrored coil -->
+<path d="M 302 160 L 302 130"/>
+<path d="M 302 130 A 12 12 0 0 0 326 130"/>
+<path d="M 326 130 A 12 12 0 0 0 350 130"/>
+<path d="M 350 130 A 12 12 0 0 0 374 130"/>
+<path d="M 374 130 L 394 110"/>
+<circle cx="394" cy="110" r="5" fill="#000000"/>
+
+<!-- goat head: angular chip-like body, hexagonal facets -->
+<path d="M 256 158
+         L 208 162
+         L 186 210
+         L 194 300
+         L 220 360
+         L 256 410
+         L 292 360
+         L 318 300
+         L 326 210
+         L 304 162
+         Z"/>
+
+<!-- center ridge / nose trace -->
+<path d="M 256 158 L 256 410"/>
+
+<!-- jaw facet lines -->
+<path d="M 186 210 L 256 250 L 326 210"/>
+<path d="M 194 300 L 256 320 L 318 300"/>
+
+<!-- ears as short pin stubs -->
+<path d="M 186 210 L 152 200"/>
+<circle cx="150" cy="199" r="4" fill="#000000"/>
+<path d="M 326 210 L 360 200"/>
+<circle cx="362" cy="199" r="4" fill="#000000"/>
+
+<!-- eyes: via-hole style, hollow circles -->
+<circle cx="232" cy="250" r="6"/>
+<circle cx="280" cy="250" r="6"/>
+
+<!-- beard: three straight pin legs, IC-package style -->
+<path d="M 240 410 L 240 440"/>
+<path d="M 256 410 L 256 452"/>
+<path d="M 272 410 L 272 440"/>
+<circle cx="240" cy="444" r="4" fill="#000000"/>
+<circle cx="256" cy="456" r="4" fill="#000000"/>
+<circle cx="272" cy="444" r="4" fill="#000000"/>
+
+</g>
+</svg>
