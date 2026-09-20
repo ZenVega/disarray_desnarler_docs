@@ -1,0 +1,150 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>Macro Goat logo, v1c overloaded with detail</title>
+<desc>Low-poly technical goat head with closed-loop horns and resistor beard, heavily detailed with circuit-board style elements: fiducial corners, dimension ticks, forehead IC chip, diode nose, capacitor flanks, extra vertex nodes and jaw pins</desc>
+
+<rect x="0.5" y="0.5" width="511" height="511" fill="none" stroke="#000000" stroke-width="1"/>
+
+<g fill="none" stroke="#000000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+
+<!-- corner fiducial markers -->
+<g stroke-width="1.5">
+<circle cx="34" cy="34" r="8"/>
+<path d="M 34 20 L 34 48 M 20 34 L 48 34"/>
+<circle cx="478" cy="34" r="8"/>
+<path d="M 478 20 L 478 48 M 464 34 L 492 34"/>
+<circle cx="34" cy="478" r="8"/>
+<path d="M 34 464 L 34 492 M 20 478 L 48 478"/>
+<circle cx="478" cy="478" r="8"/>
+<path d="M 478 464 L 478 492 M 464 478 L 492 478"/>
+</g>
+
+<!-- top and bottom dimension tick strips -->
+<g stroke-width="1.5">
+<path d="M 60 24 L 60 30 M 80 24 L 80 30 M 100 24 L 100 30 M 120 24 L 120 30 M 140 24 L 140 30
+         M 372 24 L 372 30 M 392 24 L 392 30 M 412 24 L 412 30 M 432 24 L 432 30 M 452 24 L 452 30"/>
+<path d="M 190 494 L 190 502 M 206 494 L 206 500 M 222 494 L 222 504 M 238 494 L 238 500
+         M 274 494 L 274 500 M 290 494 L 290 504 M 306 494 L 306 500 M 322 494 L 322 502"/>
+</g>
+
+<!-- left horn: closed-loop trace -->
+<path d="M 196 150
+         L 196 110
+         L 150 110
+         L 150 60
+         L 100 60
+         L 100 100
+         L 130 100"/>
+<circle cx="196" cy="150" r="5" fill="#000000"/>
+<circle cx="150" cy="110" r="5" fill="#000000"/>
+<circle cx="100" cy="60" r="5" fill="#000000"/>
+<circle cx="130" cy="100" r="5" fill="#000000"/>
+
+<!-- right horn: mirrored loop -->
+<path d="M 316 150
+         L 316 110
+         L 362 110
+         L 362 60
+         L 412 60
+         L 412 100
+         L 382 100"/>
+<circle cx="316" cy="150" r="5" fill="#000000"/>
+<circle cx="362" cy="110" r="5" fill="#000000"/>
+<circle cx="412" cy="60" r="5" fill="#000000"/>
+<circle cx="382" cy="100" r="5" fill="#000000"/>
+
+<!-- low-poly goat head -->
+<path d="M 256 150
+         L 196 150
+         L 176 230
+         L 200 320
+         L 232 380
+         L 256 420
+         L 280 380
+         L 312 320
+         L 336 230
+         L 316 150
+         Z"/>
+
+<!-- vertex via nodes on head outline -->
+<circle cx="196" cy="150" r="3" fill="#000000"/>
+<circle cx="176" cy="230" r="3" fill="#000000"/>
+<circle cx="200" cy="320" r="3" fill="#000000"/>
+<circle cx="232" cy="380" r="3" fill="#000000"/>
+<circle cx="280" cy="380" r="3" fill="#000000"/>
+<circle cx="312" cy="320" r="3" fill="#000000"/>
+<circle cx="336" cy="230" r="3" fill="#000000"/>
+<circle cx="316" cy="150" r="3" fill="#000000"/>
+
+<!-- internal facet lines -->
+<path d="M 256 150 L 256 420"/>
+<path d="M 196 150 L 232 260 L 256 420"/>
+<path d="M 316 150 L 280 260 L 256 420"/>
+<path d="M 176 230 L 232 260"/>
+<path d="M 336 230 L 280 260"/>
+<circle cx="232" cy="260" r="3" fill="#000000"/>
+<circle cx="280" cy="260" r="3" fill="#000000"/>
+
+<!-- forehead chip: expanded into a full IC with pins -->
+<rect x="234" y="164" width="44" height="24" rx="2"/>
+<path d="M 234 172 L 224 172 M 234 180 L 224 180
+         M 278 172 L 288 172 M 278 180 L 288 180" stroke-width="2.5"/>
+<circle cx="224" cy="172" r="2.5" fill="#000000"/>
+<circle cx="224" cy="180" r="2.5" fill="#000000"/>
+<circle cx="288" cy="172" r="2.5" fill="#000000"/>
+<circle cx="288" cy="180" r="2.5" fill="#000000"/>
+<path d="M 240 164 L 240 170" stroke-width="2"/>
+
+<!-- ears with crosshatch -->
+<path d="M 176 230 L 140 215 L 150 250 Z"/>
+<path d="M 336 230 L 372 215 L 362 250 Z"/>
+<g stroke-width="1.5">
+<path d="M 152 225 L 165 236 M 148 234 L 160 244 M 156 216 L 170 228"/>
+<path d="M 360 225 L 347 236 M 364 234 L 352 244 M 356 216 L 342 228"/>
+</g>
+
+<!-- diode-symbol nose between the eyes -->
+<path d="M 246 246 L 266 246 L 256 262 Z"/>
+<path d="M 246 262 L 266 262" stroke-width="3"/>
+
+<!-- eyes -->
+<rect x="222" y="230" width="14" height="6" fill="#000000" stroke="none"/>
+<rect x="276" y="230" width="14" height="6" fill="#000000" stroke="none"/>
+
+<!-- beard: resistor body with color-band ticks, then leads -->
+<path d="M 256 420 L 256 432"/>
+<rect x="244" y="432" width="24" height="26" rx="3"/>
+<path d="M 248 436 L 248 458" stroke-width="2.5"/>
+<path d="M 256 436 L 256 458" stroke-width="2.5"/>
+<path d="M 264 436 L 264 458" stroke-width="2.5"/>
+<path d="M 256 458 L 256 472"/>
+<circle cx="256" cy="476" r="5" fill="#000000"/>
+
+<!-- capacitor symbols flanking the resistor beard -->
+<g stroke-width="2.5">
+<path d="M 222 440 L 234 440 M 222 448 L 234 448"/>
+<path d="M 210 444 L 222 444"/>
+<circle cx="208" cy="444" r="2.5" fill="#000000"/>
+<path d="M 278 440 L 290 440 M 278 448 L 290 448"/>
+<path d="M 290 444 L 302 444"/>
+<circle cx="304" cy="444" r="2.5" fill="#000000"/>
+</g>
+
+<!-- side pins from jaw, first pair -->
+<path d="M 176 230 L 140 240"/>
+<circle cx="136" cy="241" r="4" fill="#000000"/>
+<path d="M 200 320 L 164 332"/>
+<circle cx="160" cy="333" r="4" fill="#000000"/>
+
+<path d="M 336 230 L 372 240"/>
+<circle cx="376" cy="241" r="4" fill="#000000"/>
+<path d="M 312 320 L 348 332"/>
+<circle cx="352" cy="333" r="4" fill="#000000"/>
+
+<!-- extra jaw pins, second pair lower down -->
+<path d="M 232 380 L 200 396"/>
+<circle cx="196" cy="398" r="4" fill="#000000"/>
+<path d="M 280 380 L 312 396"/>
+<circle cx="316" cy="398" r="4" fill="#000000"/>
+
+</g>
+</svg>

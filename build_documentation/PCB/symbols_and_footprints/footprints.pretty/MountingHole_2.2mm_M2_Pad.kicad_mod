@@ -1,0 +1,99 @@
+(footprint "MountingHole_2.2mm_M2_Pad"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Mounting Hole 2.2mm, M2")
+	(tags "mounting hole 2.2mm m2")
+	(property "Reference" "H6"
+		(at 0 -3.2 0)
+		(layer "Cmts.User")
+		(uuid "b6274e6f-d4ff-45f9-9984-e3b786e2bcd6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "M2"
+		(at 0 3.2 0)
+		(layer "F.Fab")
+		(uuid "47fc601e-d44a-41c2-88c1-ae79d8b7231f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "1133b3ed-e4bb-49c0-b07d-ca09c7717693")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "394d40b0-e934-42bd-8a7e-617b7d71e101")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(attr exclude_from_pos_files)
+	(fp_circle
+		(center 0 0)
+		(end 2.2 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "e7e19ebf-4400-4a9c-a948-693efcc43d3a")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.45 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "5a5d6127-760a-4df1-883f-a19530b59c68")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.3 0 0)
+		(layer "F.Fab")
+		(uuid "a20cf8d1-72b0-44ed-b916-584884d990b6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 4.4 4.4)
+		(drill 2.2)
+		(layers "F&B.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1868b782-62d7-41e5-b51a-3477eaf3a46f")
+	)
+	(embedded_fonts no)
+)
