@@ -1,7 +1,7 @@
 # macro_GOAT
 
 A custom macropad built around an RP2040-Zero with a 16-LED WS2812B array, hot-swap
-switches, and an optional EC11 rotary encoder.
+switches, and up to 4 optional EC11 rotary encoder.
 
 The PCB is sponsored by [PCBWay](https://www.pcbway.com/). Thanks for the support.
 

@@ -2,8 +2,6 @@
 
 Open-hardware build documentation — KiCad projects, gerbers, bills of materials, laser-cut cases and artwork — for two custom macropads.
 
-The PCBs are sponsored by [PCBWay](https://www.pcbway.com/). Thanks for the support — check out their services for high-quality PCBs and fast turnaround.
-
 ## The macropads
 
 ### [DisArray Desnarler](./disarray_desnarler/) &nbsp;→&nbsp; `disarray_desnarler/`
