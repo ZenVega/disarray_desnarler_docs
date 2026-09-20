@@ -1,12 +1,12 @@
-### Great! you finished soldering!
+### Great! your macropad is built!
 
-### so let's go ahead and flash some firmware onto your Desnarler!
+### so let's go ahead and flash some firmware onto it!
+
+This guide applies to both the DisArray Desnarler and the macro_GOAT - they share the same QMK firmware repository and flashing process.
 
 If you are in a workshop with us, we will help you and flash the first round with you, or you even got an already flashed microcontroller.
 
 If you feel comfortable with the terminal and an IDE of your choice: This guide is for you.
-
-![](../images/desnarler1.jpg)
 
 # Prepare: Install QMK
 
@@ -20,9 +20,9 @@ Test if installation was successfull:
 qmk --version
 ```
 
-# Flash Desnarler
+# Flash your macropad
 
-Clone this [repo](https://github.com/ZenVega/qmk_for_macropad/tree/main) containing the firmware and the macropad layout and keymap.
+Clone this [repo](https://github.com/ZenVega/qmk_disarray_desnarler) containing the firmware and the keymaps for both macropads.
 
 To install all missing dependencies run:
 
@@ -36,32 +36,9 @@ git submodule update --init --recursive --force
 ## Chose Keymap
 
 We provide a few different keymaps, that we think will be useful to you.
-When you look around in the repo you just cloned, there is a directory "keyboards". Within this choose the directory corresponding to the keyboard you have - in your case it is a DesnarlerV1. Within this directory there are different keymaps to configure what your Desnarler does.
+When you look around in the repo you just cloned, there is a directory "keyboards". Within this choose the directory corresponding to the keyboard you have - `desnarler_v1` for the DisArray Desnarler, or `macro_goat_v0` for the macro_GOAT. Within this directory there are different keymaps to configure what your macropad does.
 
-### default keymap
-
-As the name says, this keymap should be used on a Linux OS.
-There are two independent sets of layouts.
-
-If the switch on the top left of the Desnarler is to the left:
-
-- The 2 most right keys will navigate workspaces without dragging your current window.
-- Pressing the left most key plus one of the right most keys will navigate through workspaces while dragging the current window along.
-- Pressing the second key to the left will activate the 2 right keys to circle through all the open applications
-- holding the 2 right most keys and pressing one of the other 2 will log you out or put your system to sleep
-
-If the switch it to the right, the focus is on rearranging the windows within a workspace
-
-- the 2 left most keys will move the currently active windows to the left or right half of the screen.
-- having activated the left most key, the 2 keys on the right will maximize and minimize the current window
-- holding the second key to the left will let you switch workspaces without dragging the current window
-- holding the 2 right most keys and pressing one of the other 2 will log you out or put your system to sleep
-
-More information on this map and an easy introduction into QMK you will find [here](./How_to_configure.md)
-
-### German Umlaute ä, ö, ü
-
-This keymap has the German Umlaute on the second set of layers (switch to the right), including the option to get the capital Umlaute. More thoughts on this map and a slightly deeper dive into QMK [here](./How_to_Umlaut.md)
+For a description of the keymaps we provide for the Desnarler and an easy introduction into QMK, see the Desnarler's [How_to_configure](../disarray_desnarler/instructions/How_to_configure.md) guide.
 
 ## Compile
 
@@ -77,6 +54,12 @@ so a likely use will be
 
 ```bash
 qmk compile -kb desnarler_v1 -km default
+```
+
+or, for the macro_GOAT
+
+```bash
+qmk compile -kb macro_goat_v0 -km default
 ```
 
 If no keyboard is defined, your keymap is 'default'. (which might not be defined in all cases)
@@ -100,3 +83,5 @@ qmk flash -kb desnarler_v1 -km default
 #### Troubleshooting Flashing
 
 If your have done minor changes to your firmware, flashed and everything seemed fine, but the old firmware is still booting, download this [nuke file](https://datasheets.raspberrypi.com/soft/flash_nuke.uf2). Once downloaded, copy it onto your RP2040 while in bootloader mode. This will erase all traces of the former firmware. Then just flash again.
+
+If the changes you made to your config don't act as intended, nuke the MCU: put it into bootloader mode, then drag and drop this [nuke file](./files/universal_flash_nuke.uf2) onto the newly mounted storage device. Then just flash again.
