@@ -29,6 +29,5 @@ See [`pcb/v2/BOM.md`](./pcb/v2/BOM.md).
 
 The macro_GOAT keymap lives in the shared QMK repository
 [ZenVega/qmk_disarray_desnarler](https://github.com/ZenVega/qmk_disarray_desnarler)
-(alongside the DisArray Desnarler keymap). Flash it with QMK the same way — see the
-Desnarler's [flashing guide](../disarray_desnarler/instructions/How_to_flash.md) for
-the general procedure.
+(alongside the DisArray Desnarler keymap). Flash it with QMK using the shared
+[flashing guide](../instructions/How_to_flash.md).

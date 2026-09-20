@@ -6,7 +6,7 @@ Open-hardware build documentation — KiCad projects, gerbers, bills of material
 
 ### [DisArray Desnarler](./disarray_desnarler/) &nbsp;→&nbsp; `disarray_desnarler/`
 
-The original Schreibtischordnungsdienst macropad: a XIAO-RP2040 pad with hot-swap switches, an analog fader, and an optional rotary encoder, flashed with QMK. Includes the full build guide, laser-cut case, 3D-printed fader knob, sticker artwork, and the flashing/configuration instructions.
+The original Schreibtischordnungsdienst macropad: a XIAO-RP2040 pad with hot-swap switches, an analog fader, and an optional rotary encoder, flashed with QMK. Includes the full build guide, laser-cut case, 3D-printed fader knob, sticker artwork, and the configuration instructions.
 
 [![DisArray Desnarler](./disarray_desnarler/images/desnarler.jpg)](./disarray_desnarler/)
 
@@ -21,8 +21,9 @@ Both pads share the QMK firmware repository [ZenVega/qmk_disarray_desnarler](htt
 ## Repository layout
 
 ```
-disarray_desnarler/      first macropad (build docs, PCB versions, case, instructions)
+disarray_desnarler/      first macropad (build docs, PCB versions, case, configuration instructions)
 macro_GOAT/              second macropad (PCB, gerbers, stencil, artwork)
+instructions/            shared QMK flashing guide used by both boards
 symbols_and_footprints/  shared KiCad symbol & footprint libraries used by both boards
 ```
 

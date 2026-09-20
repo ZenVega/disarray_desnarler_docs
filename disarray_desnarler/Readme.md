@@ -13,7 +13,7 @@ For a quick overview of the project, have a look at [the Hackaday project page](
 ```
 pcb/v1.1/        current PCB — KiCad project, gerbers and BOM.md
 pcb/v0.5/        earlier PCB revision (archived)
-instructions/    flashing, configuration and Umlaut guides
+instructions/    configuration and Umlaut guides (flashing guide is shared, see ../instructions/)
 case/            laser-cut case (current_version/ + old_version/)
 build_guide/     assembly build diagram
 3d_prints/       fader knob STL
@@ -40,7 +40,7 @@ The full bill of materials is in [`pcb/v1.1/BOM.md`](./pcb/v1.1/BOM.md).
 
 After you are done soldering, it is time to flash your Desnarler with some QMK firmware to make it ready for use. Let's start with a keymap we provide.
 
-For this, please refer to the [How_to_flash](./instructions/How_to_flash.md) guide.
+For this, please refer to the [How_to_flash](../instructions/How_to_flash.md) guide.
 
 If you are interested in configuring the Desnarler yourself, see [How_to_configure](./instructions/How_to_configure.md).
 
