@@ -1,5 +1,15 @@
+# OS cruft
 .DS_Store
-PCB/ccc_macropad/ccc_macropad-backups
-**/*.zip
-private_notes.txt
 
+# KiCad backups, autosaves, locks and caches
+**/*-backups/
+**/*.zip
+_autosave-*
+*.lck
+fp-info-cache
+
+# Editor local history (VS Code Local History extension)
+**/.history/
+
+# Personal notes
+private_notes.txt

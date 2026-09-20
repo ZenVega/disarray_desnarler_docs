@@ -1,6 +1,6 @@
 # The Umlaut map – using a bit more complex features of qmk
 
-![](./images/desnarler2.jpg)
+![](../images/desnarler2.jpg)
 
 ### general idea and neccesary settings
 If you want to type the German Umlaute Ä, Ö and Ü on a regular QWERTY keyboard, you will have to use [compose keys](https://en.wikipedia.org/wiki/Compose_key).
@@ -16,7 +16,7 @@ After having set this, lets look at the code to procude an ä with our tiny Desn
 
 These Macros are then called as keys within layout 4, while Layouts 0-3 remain as we know them from the default keymap.
 
-![](./images/umlaut_map.png)
+![](../images/umlaut_map.png)
 
 Because we are not calling a specific key or a simultaneous press of keys at the same time, we need to do things different than we did in layouts 0-3. This time we need to imitate pressing specific keys in a certain order.
 For our purposes we use a function, that QMK offers:
@@ -27,7 +27,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record)
 This function is called everytime a key is pressed or released and therefore is just the right spot for us to handle our custom Umlaut keys.
 
 Let's look at AUML as an example:
-![](./images/record_user.png)
+![](../images/record_user.png)
 
 In case we pressed the key that we labeld AUML in the Layout it's case will be called within this switch statement. Then we will tap (imitating one short keypress) our compose key, which is set to right Alt. Then we need to hold left shift while pressing [ " ]. So we register left shift and tap [ " ] before we unregister (let go of) left shift. This sequence is the same for all Umlaute. As we want Ä in this example, we tap KC_A and we are done. (the umlaut_pressed() function handles the LEDs on key press here).
 
