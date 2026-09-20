@@ -14,7 +14,9 @@ For a project overview, see [the Hackaday project page](https://hackaday.io/proj
 
 ### [macro_GOAT](./macro_GOAT/) &nbsp;→&nbsp; `macro_GOAT/`
 
-An RP2040-Zero macropad with a 16-LED WS2812B array, hot-swap switches, and an optional EC11 rotary encoder. Includes the KiCad project, gerbers, SMD stencil, and the board artwork.
+An RP2040-Zero macropad with a 16-LED WS2812B array, hot-swap switches, and up to 4 optional EC11 rotary encoders. Includes the KiCad project, gerbers, SMD stencil, and the board artwork.
+
+Both pads share the QMK firmware repository [ZenVega/qmk_disarray_desnarler](https://github.com/ZenVega/qmk_disarray_desnarler), which now holds keymaps for the Desnarler and the macro_GOAT.
 
 ## Repository layout
 
