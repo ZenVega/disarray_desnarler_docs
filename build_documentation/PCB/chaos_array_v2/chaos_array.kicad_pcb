@@ -81,8 +81,8 @@
 		(filling no)
 		(grid_origin 153.5 69.5)
 		(pcbplotparams
-			(layerselection 0x00000000_00000000_5555555d_ff55f5ff)
-			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
+			(layerselection 0x00000000_00000000_55555555_57555550)
+			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00002000)
 			(disableapertmacros no)
 			(usegerberextensions yes)
 			(usegerberattributes yes)
@@ -110,11 +110,11 @@
 			(sketchdnponfab yes)
 			(crossoutdnponfab yes)
 			(subtractmaskfromsilk yes)
-			(outputformat 1)
+			(outputformat 3)
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "gerbers")
+			(outputdirectory "gerbers/stencil")
 		)
 	)
 	(footprint "TestPoint:PerfBoard_THT_SMD_PAD"
@@ -3966,7 +3966,6 @@
 			)
 			(fill yes)
 			(layer "F.Mask")
-			(net "")
 			(uuid "3e6d4464-c8a6-44ba-8133-c969d9c0cf44")
 		)
 		(pad "" thru_hole circle
@@ -15133,7 +15132,6 @@
 			)
 			(fill yes)
 			(layer "F.Mask")
-			(net "")
 			(uuid "122ddb8a-ec89-49fe-8268-32e8788b008c")
 		)
 		(pad "" thru_hole circle
@@ -15304,7 +15302,6 @@
 			)
 			(fill yes)
 			(layer "F.Mask")
-			(net "")
 			(uuid "330d31c0-865b-4b86-9dd8-9e00010903c0")
 		)
 		(pad "" thru_hole circle
@@ -28743,7 +28740,6 @@
 			)
 			(fill yes)
 			(layer "F.Mask")
-			(net "")
 			(uuid "2112b435-941a-4fb7-bbb2-32809b0f06cf")
 		)
 		(pad "" thru_hole circle
@@ -33847,7 +33843,6 @@
 			)
 			(fill yes)
 			(layer "F.Mask")
-			(net "")
 			(uuid "f3914208-e956-451d-b69e-edc26f2501ab")
 		)
 		(pad "" thru_hole circle
@@ -40691,7 +40686,6 @@
 			)
 			(fill yes)
 			(layer "F.Mask")
-			(net "")
 			(uuid "00109f4d-a5c3-42c9-aaaa-89a03a3137eb")
 		)
 		(pad "" thru_hole circle
@@ -42785,7 +42779,6 @@
 			)
 			(fill yes)
 			(layer "F.Mask")
-			(net "")
 			(uuid "46b04d29-7a71-4319-aab6-54d33cb03f16")
 		)
 		(pad "" thru_hole circle
@@ -46022,7 +46015,6 @@
 			)
 			(fill yes)
 			(layer "F.Mask")
-			(net "")
 			(uuid "71821121-614c-4717-afa1-057393628786")
 		)
 		(pad "" thru_hole circle
@@ -46856,7 +46848,6 @@
 			)
 			(fill yes)
 			(layer "F.Mask")
-			(net "")
 			(uuid "dbf218c8-d824-434b-89fe-795b43d3d7b3")
 		)
 		(pad "" thru_hole circle
