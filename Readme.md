@@ -1,31 +1,38 @@
-# DisArray Desnarler
+# Macropad Collection
 
-Congrats on getting your first own DisArray Desnarler. We are happy to have you here and help you organise your desktop.
+Open-hardware build documentation — KiCad projects, gerbers, bills of materials, laser-cut cases and artwork — for two custom macropads.
 
-For a quick overview of the project, have a look at [the Hackaday project page](https://hackaday.io/project/204536-disarray-desnarler).
+The PCBs are sponsored by [PCBWay](https://www.pcbway.com/). Thanks for the support — check out their services for high-quality PCBs and fast turnaround.
 
-&mdash;  _your Schreibtischordnungsdienst_
+## The macropads
 
-## Soldering instructions
+### [DisArray Desnarler](./disarray_desnarler/) &nbsp;→&nbsp; `disarray_desnarler/`
 
-The PCBs are sponsored by [PCBWay](https://www.pcbway.com/). Thanks for the support. Check out their services for high-quality PCBs and fast service.
+The original Schreibtischordnungsdienst macropad: a XIAO-RP2040 pad with hot-swap switches, an analog fader, and an optional rotary encoder, flashed with QMK. Includes the full build guide, laser-cut case, 3D-printed fader knob, sticker artwork, and the flashing/configuration instructions.
 
-All components should be soldered to the front of the board, with the exception of the optional hotswap sockets (d).
+[![DisArray Desnarler](./disarray_desnarler/images/desnarler.jpg)](./disarray_desnarler/)
 
-The alphabetical markers in this diagram show the recommended soldering order, based on the height of the components. Note that while "a" through "c" are next to each other in the diagram, the rest of the sequence is scattered. Be careful not to simply go clockwise.
+For a project overview, see [the Hackaday project page](https://hackaday.io/project/204536-disarray-desnarler).
 
-[![Soldering instructions](./images/soldering_instructions.png)](./images/soldering_instructions.png)
+### [macro_GOAT](./macro_GOAT/) &nbsp;→&nbsp; `macro_GOAT/`
 
-### Using the Desnarler as a Macropad
+An RP2040-Zero macropad with a 16-LED WS2812B array, hot-swap switches, and an optional EC11 rotary encoder. Includes the KiCad project, gerbers, SMD stencil, and the board artwork.
 
-After you are done soldering, it is time to flash your Desnarler with some QMK firmware to make it ready for use. Let's start with a keymap we provide.
+## Repository layout
 
-For this, please refer to the [How_to_flash](./How_to_flash.md) guide.
+```
+disarray_desnarler/      first macropad (build docs, PCB versions, case, instructions)
+macro_GOAT/              second macropad (PCB, gerbers, stencil, artwork)
+symbols_and_footprints/  shared KiCad symbol & footprint libraries used by both boards
+```
 
-If you are interested in configuring the Desnarler yourself, see [How_to_configure](./How_to_configure.md).
+> **KiCad note:** each project's `fp-lib-table` / `sym-lib-table` still contains machine-specific
+> paths from the original authoring environment. The shared libraries now live at the repo root in
+> [`symbols_and_footprints/`](./symbols_and_footprints/); re-point the library tables there when
+> opening a project in KiCad.
 
-If you are looking for an option to change the meaning of the keys a bit more easily check out the [Companion App](https://github.com/ZenVega/qmk_disarray_desnarler/blob/main/companion-app/README.md) (works with MacOS only). created by 
+## License
 
+See [LICENSE](./LICENSE).
 
-### What you can also do 
-You can also use your Desnarler to play [Vimchaser!](https://github.com/uschi909/vimchaser)
+&mdash; _your Schreibtischordnungsdienst_
