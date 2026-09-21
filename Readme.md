@@ -8,7 +8,7 @@ Open-hardware build documentation — KiCad projects, gerbers, bills of material
 
 The original Schreibtischordnungsdienst macropad: a XIAO-RP2040 pad with hot-swap switches, an analog fader, and an optional rotary encoder, flashed with QMK. Includes the full build guide, laser-cut case, 3D-printed fader knob, sticker artwork, and the configuration instructions.
 
-[![DisArray Desnarler](./disarray_desnarler/images/desnarler.jpg)](./disarray_desnarler/)
+[![DisArray Desnarler](./disarray_desnarler/images/desnarler1.jpg)](./disarray_desnarler/)
 
 For a project overview, see [the Hackaday project page](https://hackaday.io/project/204536-disarray-desnarler).
 
