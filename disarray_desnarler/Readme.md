@@ -32,7 +32,7 @@ All components should be soldered to the front of the board, with the exception 
 
 The alphabetical markers in this diagram show the recommended soldering order, based on the height of the components. Note that while "a" through "c" are next to each other in the diagram, the rest of the sequence is scattered. Be careful not to simply go clockwise.
 
-[![Soldering instructions](./images/soldering_instructions.png)](./images/soldering_instructions.png)
+[![Soldering instructions](./instructions/build_guide/build_diagram_v1_1.png)](./instructions/build_guide/build_diagram_v1_1.png)
 
 The full bill of materials is in [`pcb/v1.1/BOM.md`](./pcb/v1.1/BOM.md).
 
