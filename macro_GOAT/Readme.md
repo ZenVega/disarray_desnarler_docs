@@ -6,7 +6,7 @@ switches, and up to 4 optional EC11 rotary encoder.
 ## What's in this folder
 
 ```
-pcb/v2/          KiCad project, gerbers, SMD stencil and BOM.md
+pcb/v1.0/        KiCad project, gerbers, SMD stencil and BOM.md
   gerbers/         fabrication gerbers (+ stencil/ for the SMD stencil)
   chaos_array.*    KiCad schematic / board / project files
   smd_stencil.svg  stencil artwork
@@ -21,4 +21,11 @@ artwork/         board graphics — the macro_GOAT logo studies and silkscreen t
 
 ## Bill of materials
 
-See [`pcb/v2/BOM.md`](./pcb/v2/BOM.md).
+See [`pcb/v1.0/BOM.md`](./pcb/v1.0/BOM.md).
+
+## Firmware
+
+The macro_GOAT keymap lives in the shared QMK repository
+[ZenVega/qmk_disarray_desnarler](https://github.com/ZenVega/qmk_disarray_desnarler)
+(alongside the DisArray Desnarler keymap). Flash it with QMK using the shared
+[flashing guide](../instructions/How_to_flash.md).
