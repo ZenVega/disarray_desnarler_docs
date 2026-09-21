@@ -3,8 +3,6 @@
 A custom macropad built around an RP2040-Zero with a 16-LED WS2812B array, hot-swap
 switches, and up to 4 optional EC11 rotary encoder.
 
-The PCB is sponsored by [PCBWay](https://www.pcbway.com/). Thanks for the support.
-
 ## What's in this folder
 
 ```
@@ -24,11 +22,3 @@ artwork/         board graphics — the macro_GOAT logo studies and silkscreen t
 ## Bill of materials
 
 See [`pcb/v2/BOM.md`](./pcb/v2/BOM.md).
-
-## Firmware
-
-The macro_GOAT keymap lives in the shared QMK repository
-[ZenVega/qmk_disarray_desnarler](https://github.com/ZenVega/qmk_disarray_desnarler)
-(alongside the DisArray Desnarler keymap). Flash it with QMK the same way — see the
-Desnarler's [flashing guide](../disarray_desnarler/instructions/How_to_flash.md) for
-the general procedure.
